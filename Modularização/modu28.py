@@ -1,7 +1,6 @@
 #preço novo de um produto com alguns reajustes com passagem de parâmetros
 
-PreçoAtual: float = 0.0
-Venda: float = 0.0
+
 
 def Alterações_Valores(PA, V):
     PN: float = 0.0
@@ -13,14 +12,16 @@ def Alterações_Valores(PA, V):
         PN = PA - (PA * 0.05)
     else:
         PN = PA
-    print ('Esse é o Novo Preço:',PN)
+    return PN
 
 def main():
-    global PreçoAtual
-    global Venda
+    PreçoAtual: float = 0.0
+    Venda: float = 0.0
     PreçoAtual = float(input("Qual o preço atual do produto? "))
     Venda = float(input("Quantos produtos são vendidos mensalmente? "))
     Alterações_Valores(PreçoAtual, Venda)
+    PN = Alterações_Valores(PreçoAtual, Venda)
+    print ('Esse é o novo valor',PN)
 
 if __name__ == '__main__':
     main()
