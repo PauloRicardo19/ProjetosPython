@@ -28,7 +28,6 @@ durará esse alimento sabendo que a pessoa consome 50g ao dia.
 15. Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre
 a hipotenusa.
 
-2
 16. Receba a quantidade de horas trabalhadas, o valor por hora, o percentual
 de desconto e o número de dependentes. Calcule o salário que serão as
 horas trabalhadas x o valor por hora. Calcule o salário líquido (= Salário
@@ -67,12 +66,9 @@ Venda Mensal Preço Atual Preço Novo
 &gt;= 1000 &gt;= 80 - 5%
 Obs.: para outras condições, preço novo será igual ao preço atual.
 
-3
 29. Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do
 investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a
 poupança = 3% e a renda fixa = 5%. Demais tipos não serão considerados.
-30. Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a
-idade em anos, meses e dias, considerando os anos bissextos.
 31. Calcule e mostre o quadrado dos números entre 10 e 150.
 32. Receba um número inteiro. Calcule e mostre o seu fatorial.
 33. Receba um número. Calcule e mostre a série 1 + 1/2 + 1/3 + ... + 1/N.
