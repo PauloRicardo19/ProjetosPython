@@ -111,11 +111,10 @@ deve calcular a soma de cada linha (Cada iteração do laço, para a soma deve s
 um sleep de 0.2 segundos), ao final, deve-se imprimir a identificação da linha e o resultado da
 soma.
 
-4) Fazer uma aplicação de uma corrida de sapos, com 5 Threads, cada Thread controlando 1
+3) Fazer uma aplicação de uma corrida de sapos, com 5 Threads, cada Thread controlando 1
 sapo. Deve haver um tamanho máximo para cada pulo do sapo (em centímetros) e a distância
 máxima para que os sapos percorram. A cada salto, um sapo pode dar um salto de 0 até o
 tamanho máximo do salto (valor aleatório entre 1 e 5 cm.). Após dar um salto, a Thread, para
 cada sapo, deve mostrar no console, qual foi o tamanho do salto e quanto o sapo percorreu.
-Assim que o sapo percorrer a distância máxima, a Thread deve apresentar que o sapo chegou.
-Dica: O exercício deve ser resolvido todo em console, ou seja, como se estivesse sendo
-narrado.
+Assim que o sapo percorrer a distância máxima, a Thread deve apresentar a posição que
+o sapo chegou.
